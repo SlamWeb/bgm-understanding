@@ -1,0 +1,67 @@
+{
+  "schema": "bgm-editing-brief-v2",
+  "status": "complete",
+  "audio": {
+    "name": "apt-official-preview-excerpt.mp3",
+    "duration_seconds": 29.952,
+    "source_sha256": "082e3aeda0fc2caa742d39fd33e49bc6a3f2314d0e0aae9c40bfa86bca4f893e",
+    "time_origin": "decoded audio start",
+    "source_start_seconds": 0.0
+  },
+  "overview": {
+    "bpm_candidate": 150.0,
+    "main_sound_candidates": [
+      "drums",
+      "electricguitar",
+      "guitar"
+    ],
+    "audio_kind": "music",
+    "language_candidate": null,
+    "typical_bar_seconds": 1.61,
+    "rhythm_source": "Beat This",
+    "mood_candidates": [
+      "happy",
+      "aggressive"
+    ]
+  },
+  "timeline": [
+    {"start":0.0,"end":3.5,"section_candidate":"verse","energy":0.23,"energy_trend":"steady","onsets_per_second":1.4,"sound_candidates":["synthesizer","bass","drums"],"voice":"possible_vocals","mood_candidates":["happy"]},
+    {"start":3.5,"end":6.5,"section_candidate":"verse","energy":0.31,"energy_trend":"rising","onsets_per_second":1.5,"sound_candidates":["synthesizer","drums","electricguitar"],"voice":"possible_vocals","mood_candidates":["happy"]},
+    {"start":6.5,"end":19.59,"section_candidate":"verse","energy":0.85,"energy_trend":"steady","onsets_per_second":4.8,"sound_candidates":["drums","electricguitar","guitar"],"voice":"possible_vocals","mood_candidates":["happy","aggressive"]},
+    {"start":19.59,"end":29.95,"section_candidate":"verse","energy":0.92,"energy_trend":"steady","onsets_per_second":5.0,"sound_candidates":["guitar","drums","electricguitar"],"voice":"possible_vocals","mood_candidates":["happy","aggressive"]}
+  ],
+  "change_candidates": [
+    {"time":3.5,"type":"change_candidate","signals":["energy_increase"],"nearby_bar_start":3.5},
+    {"time":6.5,"type":"change_candidate","signals":["energy_increase","frequency_change","onset_density_increase"],"nearby_bar_start":6.72},
+    {"time":19.59,"type":"change_candidate","signals":["section_boundary_candidate"],"nearby_bar_start":19.6}
+  ],
+  "sound_motion": {
+    "columns": ["start","end","energy","low_share","mid_share","high_share","onsets_per_second"],
+    "windows": [[0.0,1.0,0.216,0.001,0.786,0.213,1.0],[1.0,2.0,0.224,0.002,0.796,0.202,2.0],[2.0,3.0,0.255,0.001,0.717,0.282,1.0],[3.0,4.0,0.242,0.001,0.853,0.147,2.0],[4.0,5.0,0.228,0.0,0.709,0.29,1.0],[5.0,6.0,0.267,0.0,0.702,0.297,1.0],[6.0,7.0,0.631,0.497,0.459,0.044,3.0],[7.0,8.0,0.903,0.571,0.361,0.069,5.0],[8.0,9.0,0.815,0.5,0.428,0.072,5.0],[9.0,10.0,0.851,0.589,0.342,0.069,5.0],[10.0,11.0,0.886,0.497,0.442,0.061,5.0],[11.0,12.0,0.782,0.561,0.354,0.085,5.0],[12.0,13.0,0.883,0.574,0.373,0.053,5.0],[13.0,14.0,0.902,0.519,0.414,0.066,5.0],[14.0,15.0,0.851,0.561,0.373,0.066,5.0],[15.0,16.0,0.893,0.56,0.38,0.061,5.0],[16.0,17.0,0.761,0.376,0.524,0.1,4.0],[17.0,18.0,0.855,0.608,0.326,0.067,5.0],[18.0,19.0,0.832,0.578,0.364,0.058,5.0],[19.0,20.0,0.996,0.654,0.281,0.065,5.0],[20.0,21.0,0.914,0.6,0.308,0.092,5.0],[21.0,22.0,0.844,0.58,0.316,0.105,5.0],[22.0,23.0,0.974,0.624,0.326,0.05,5.0],[23.0,24.0,0.994,0.589,0.307,0.104,5.0],[24.0,25.0,0.785,0.378,0.503,0.119,5.0],[25.0,26.0,0.864,0.59,0.36,0.05,5.0],[26.0,27.0,0.99,0.546,0.383,0.071,5.0],[27.0,28.0,0.876,0.551,0.368,0.081,5.0],[28.0,29.0,1.0,0.474,0.411,0.116,5.0],[29.0,29.952,0.977,0.578,0.354,0.068,5.25]],
+    "meaning": "Duration-weighted envelope, at most 48 windows; energy is relative within this audio, band shares are power proportions, null means unavailable. Not instrument identity or emotion; use onsets for exact attacks."
+  },
+  "cut_points": {
+    "beats": [0.32,0.76,1.14,1.52,1.94,2.3,2.7,3.1,3.5,3.88,4.28,4.68,5.1,5.5,5.9,6.32,6.72,7.12,7.52,7.92,8.32,8.72,9.12,9.54,9.92,10.34,10.74,11.14,11.54,11.96,12.36,12.76,13.16,13.56,13.96,14.36,14.76,15.16,15.56,15.98,16.38,16.78,17.18,17.58,17.98,18.4,18.8,19.2,19.6,20.0,20.4,20.8,21.2,21.6,22.0,22.42,22.82,23.24,23.62,24.04,24.42,24.84,25.24,25.64,26.04,26.44,26.84,27.26,27.64,28.06,28.46,28.86,29.26,29.66],
+    "bar_starts": [0.32,1.94,3.5,5.1,6.72,8.32,9.92,11.54,13.16,14.76,16.38,17.98,19.6,21.2,22.82,24.42,26.04,27.64,29.26],
+    "onsets": [[0.351,0.1587],[1.157,0.0796],[1.971,0.1299],[2.767,0.118],[3.55,0.1574],[3.752,0.1059],[4.362,0.1107],[5.922,0.1986],[6.564,0.1321],[6.746,1.0],[6.923,0.3233],[7.134,0.4535],[7.339,0.7691],[7.555,0.4835],[7.736,0.749],[7.934,0.5093],[8.124,0.2907],[8.355,0.8978],[8.537,0.3797],[8.738,0.3834],[8.947,0.6352],[9.146,0.5149],[9.351,0.7224],[9.545,0.3243],[9.744,0.4808],[9.967,0.6774],[10.123,0.3721],[10.349,0.5863],[10.559,0.559],[10.78,0.497],[10.959,0.6615],[11.156,0.3111],[11.352,0.3694],[11.577,0.8462],[11.745,0.4394],[11.96,0.4751],[12.169,0.675],[12.368,0.6275],[12.574,0.7404],[12.767,0.3327],[12.965,0.2009],[13.189,0.7702],[13.368,0.3257],[13.578,0.3882],[13.781,0.6517],[13.979,0.4564],[14.183,0.7329],[14.377,0.4971],[14.563,0.3584],[14.798,0.8128],[14.949,0.3686],[15.181,0.4424],[15.39,0.5543],[15.605,0.5024],[15.792,0.739],[15.988,0.4062],[16.188,0.4482],[16.411,0.6961],[16.572,0.3355],[16.792,0.4262],[17.001,0.4588],[17.198,0.4947],[17.404,0.6947],[17.599,0.2722],[17.798,0.3953],[18.02,0.8803],[18.187,0.4628],[18.403,0.5273],[18.612,0.4284],[18.799,0.2506],[19.016,0.6854],[19.21,0.3325],[19.401,0.2011],[19.616,0.4296],[19.833,0.118],[20.02,0.4024],[20.224,0.6946],[20.42,0.4656],[20.626,0.5943],[20.82,0.5041],[21.062,0.302],[21.241,0.7966],[21.42,0.4279],[21.626,0.371],[21.833,0.6695],[22.031,0.6552],[22.237,0.5981],[22.429,0.3738],[22.642,0.2303],[22.837,0.7221],[23.031,0.4087],[23.243,0.273],[23.445,0.5327],[23.603,0.4259],[23.848,0.3007],[24.042,0.3153],[24.259,0.2354],[24.462,0.8622],[24.642,0.3181],[24.846,0.4859],[25.054,0.5593],[25.251,0.6539],[25.459,0.728],[25.653,0.3284],[25.851,0.2137],[26.076,0.6996],[26.244,0.2163],[26.462,0.3079],[26.667,0.5634],[26.88,0.6227],[27.068,0.4556],[27.263,0.2411],[27.462,0.3722],[27.684,0.4531],[27.853,0.3913],[28.067,0.4471],[28.276,0.5628],[28.471,0.5873],[28.68,0.4979],[28.873,0.2631],[29.06,0.332],[29.297,0.6578],[29.449,0.4477],[29.678,0.412],[29.889,0.4878]],
+    "onset_columns": ["seconds","relative_strength"],
+    "onset_coverage": "full_detected_events"
+  },
+  "text_cues": [],
+  "reading_notes": {
+    "energy": "Relative level within this audio, 0–1; not emotion.",
+    "onsets_per_second": "Detected sound density; not BPM.",
+    "cut_points": "Seconds from audio start: beats=beat grid; bar_starts=bar-first-beat candidates; onsets=[time,strength] detected attacks. These are options, not mandatory cuts or instrument identities.",
+    "text_cues": "Transcription was not requested. Empty text does not indicate absence of vocals."
+  },
+  "cautions": [
+    "Musical labels are unverified model candidates.",
+    "Voice classifiers disagree; possible_vocals does not confirm singing."
+  ],
+  "detail_ref": {
+    "file": "analysis/bgm-analysis-detail.json",
+    "sha256": "63d68ec5387307c4f8bba1b17f154d2e3671f6170d4372495c06090e8ec5e27a",
+    "use": "Cut-point candidates are already included above. Read details only for model diagnostics, alternative text or full-resolution measurements."
+  },
+  "text_status": "skipped_not_requested"
+}

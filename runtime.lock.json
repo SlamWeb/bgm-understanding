@@ -1,0 +1,247 @@
+{
+  "schema": "bgm-runtime-lock-v1",
+  "python": "3.11",
+  "platforms": [
+    "Windows x64",
+    "Linux x64"
+  ],
+  "torch_cpu": "2.0.1+cpu",
+  "torchaudio_cpu": "2.0.2+cpu",
+  "sources": [
+    {
+      "path": "all-in-one-trial/infer-source",
+      "url": "https://github.com/openmirlab/all-in-one-infer.git",
+      "commit": "566f96c3f007c783ab5eb6db0123bf3335af8f31"
+    },
+    {
+      "path": "all-in-one-trial/madmom-source",
+      "url": "https://github.com/openmirlab/madmom-infer.git",
+      "commit": "a9ed04ec942dd6ec5309df7ce7f3783d1bb42575"
+    },
+    {
+      "path": "all-in-one-trial/demucs-source",
+      "url": "https://github.com/openmirlab/demucs-infer.git",
+      "commit": "ffe0080ef96336a34e3f0ee8ba22ceaa0623a36c"
+    },
+    {
+      "path": "panns-test/yamnet-source",
+      "url": "https://github.com/w-hc/torch_audioset.git",
+      "commit": "daed697ddcd1d2f7304cc3c2b1b4295ac7e304e4"
+    }
+  ],
+  "assets": [
+    {
+      "path": "models/small0.ckpt",
+      "url": "https://cloud.cp.jku.at/public.php/dav/files/7ik4RrBKTS273gp/small0.ckpt",
+      "bytes": 8451101,
+      "sha256": "6074be2c4d490c5f6101fcc374a1ec72ae93456e23bb6019783b849f5dc7d47b",
+      "license": "See CPJKU/beat_this model release terms",
+      "profile": "signal"
+    },
+    {
+      "path": "all-in-one-trial/torch-cache/hub/checkpoints/harmonix-fold0-0vra4ys2.pth",
+      "url": "https://huggingface.co/taejunkim/allinone/resolve/main/harmonix-fold0-0vra4ys2.pth",
+      "bytes": 1400571,
+      "sha256": "0db596dfb0995f41d62f6267d76a9d54c046f1649bd35e1dbeca0c5f9a7b8acd",
+      "license": "CC BY-NC-SA 4.0",
+      "profile": "full"
+    },
+    {
+      "path": "all-in-one-trial/torch-cache/hub/checkpoints/harmonix-fold1-3ozjhtsj.pth",
+      "url": "https://huggingface.co/taejunkim/allinone/resolve/main/harmonix-fold1-3ozjhtsj.pth",
+      "bytes": 1400571,
+      "sha256": "607b4864eaabccd4f6951410d5ea6676666ad1cfa6ce2e18bc99f3824b77c3b7",
+      "license": "CC BY-NC-SA 4.0",
+      "profile": "full"
+    },
+    {
+      "path": "all-in-one-trial/torch-cache/hub/checkpoints/harmonix-fold2-gmgo0nsy.pth",
+      "url": "https://huggingface.co/taejunkim/allinone/resolve/main/harmonix-fold2-gmgo0nsy.pth",
+      "bytes": 1400571,
+      "sha256": "67c28ec7ca612d365e5fcb152f6530eb53e34c4303940afb30fd17a295c958a4",
+      "license": "CC BY-NC-SA 4.0",
+      "profile": "full"
+    },
+    {
+      "path": "all-in-one-trial/torch-cache/hub/checkpoints/harmonix-fold3-i92b7m8p.pth",
+      "url": "https://huggingface.co/taejunkim/allinone/resolve/main/harmonix-fold3-i92b7m8p.pth",
+      "bytes": 1400571,
+      "sha256": "446d05672b2669cdb7d9b8bbbc228a4f3592484335a7995cca89a744e3950ddc",
+      "license": "CC BY-NC-SA 4.0",
+      "profile": "full"
+    },
+    {
+      "path": "all-in-one-trial/torch-cache/hub/checkpoints/harmonix-fold4-1bql5qo0.pth",
+      "url": "https://huggingface.co/taejunkim/allinone/resolve/main/harmonix-fold4-1bql5qo0.pth",
+      "bytes": 1400571,
+      "sha256": "96327222ab9b33c005388b788ba602f529aa03cc4dde1c859c011f1004490493",
+      "license": "CC BY-NC-SA 4.0",
+      "profile": "full"
+    },
+    {
+      "path": "all-in-one-trial/torch-cache/hub/checkpoints/harmonix-fold5-x4z5zeef.pth",
+      "url": "https://huggingface.co/taejunkim/allinone/resolve/main/harmonix-fold5-x4z5zeef.pth",
+      "bytes": 1400571,
+      "sha256": "c87f162a1090290bcbb863688746784919cf912c56744fb3d81a1a7dba3b114e",
+      "license": "CC BY-NC-SA 4.0",
+      "profile": "full"
+    },
+    {
+      "path": "all-in-one-trial/torch-cache/hub/checkpoints/harmonix-fold6-x7t226rq.pth",
+      "url": "https://huggingface.co/taejunkim/allinone/resolve/main/harmonix-fold6-x7t226rq.pth",
+      "bytes": 1400571,
+      "sha256": "13e7e639bf30fcd3fa049ad863088773a4e57b06d7c68581385b3ef625c60688",
+      "license": "CC BY-NC-SA 4.0",
+      "profile": "full"
+    },
+    {
+      "path": "all-in-one-trial/torch-cache/hub/checkpoints/harmonix-fold7-qwwskhg6.pth",
+      "url": "https://huggingface.co/taejunkim/allinone/resolve/main/harmonix-fold7-qwwskhg6.pth",
+      "bytes": 1400571,
+      "sha256": "b888b7fba95efa3d5a37ca013fe7efe2741621ea9ca335e6b2723e4fd0fade57",
+      "license": "CC BY-NC-SA 4.0",
+      "profile": "full"
+    },
+    {
+      "path": "all-in-one-trial/torch-cache/hub/checkpoints/955717e8-8726e21a.th",
+      "url": "https://dl.fbaipublicfiles.com/demucs/hybrid_transformer/955717e8-8726e21a.th",
+      "bytes": 84141911,
+      "sha256": "8726e21a993978c7ba086d3872e7608d7d5bfca646ca4aca459ffda844faa8b4",
+      "license": "MIT; see facebookresearch/demucs",
+      "profile": "full"
+    },
+    {
+      "path": "panns-test/yamnet.pth",
+      "url": "https://github.com/w-hc/torch_audioset/releases/download/v0.1/yamnet.pth",
+      "bytes": 15080868,
+      "sha256": "620b5feb079a97f7c884427f66cf9b281dca0725f46828eb019d01cacb7ae968",
+      "license": "See w-hc/torch_audioset and Google YAMNet terms",
+      "profile": "full"
+    },
+    {
+      "path": "models/semantic-heads/discogs-effnet-bsdynamic-1.onnx",
+      "url": "https://huggingface.co/rlupi/deep-cuts-models-noncommercial/resolve/main/discogs-effnet-bsdynamic-1.onnx",
+      "bytes": 18027718,
+      "sha256": "a280825b334797cf677939db8cd5762c0392aedd0ca6415dbc1cd083f045e43c",
+      "license": "CC BY-NC-SA 4.0; see Essentia metadata",
+      "profile": "full"
+    },
+    {
+      "path": "models/semantic-heads/discogs-effnet-bsdynamic-1.json",
+      "url": "https://huggingface.co/rlupi/deep-cuts-models-noncommercial/resolve/main/discogs-effnet-bsdynamic-1.json",
+      "bytes": 14986,
+      "sha256": "a2e85b2e7372d5f8e0f35bdd6aeae1139f101087d183d0b2fb60b0ea0f01a0ff",
+      "license": "CC BY-NC-SA 4.0; see Essentia metadata",
+      "profile": "full"
+    },
+    {
+      "path": "models/semantic-heads/mood_happy-discogs-effnet-1.onnx",
+      "url": "https://huggingface.co/rlupi/deep-cuts-models-noncommercial/resolve/main/mood_happy-discogs-effnet-1.onnx",
+      "bytes": 514097,
+      "sha256": "0ca322819ef137b4b87e9866bffe7370a630e6f1165184ec106326cef6f81e06",
+      "license": "CC BY-NC-SA 4.0; see Essentia metadata",
+      "profile": "full"
+    },
+    {
+      "path": "models/semantic-heads/mood_happy-discogs-effnet-1.json",
+      "url": "https://huggingface.co/rlupi/deep-cuts-models-noncommercial/resolve/main/mood_happy-discogs-effnet-1.json",
+      "bytes": 2350,
+      "sha256": "ed4601bc396b23367d29cf45aa327366cdfdbd3e2baeb7a3f7893237f1ffd9e6",
+      "license": "CC BY-NC-SA 4.0; see Essentia metadata",
+      "profile": "full"
+    },
+    {
+      "path": "models/semantic-heads/mood_sad-discogs-effnet-1.onnx",
+      "url": "https://huggingface.co/rlupi/deep-cuts-models-noncommercial/resolve/main/mood_sad-discogs-effnet-1.onnx",
+      "bytes": 514093,
+      "sha256": "1a50d11c23181bdfdeabc7d6032a2dad829dfc19c3776d2ee57ef1724cb08805",
+      "license": "CC BY-NC-SA 4.0; see Essentia metadata",
+      "profile": "full"
+    },
+    {
+      "path": "models/semantic-heads/mood_sad-discogs-effnet-1.json",
+      "url": "https://huggingface.co/rlupi/deep-cuts-models-noncommercial/resolve/main/mood_sad-discogs-effnet-1.json",
+      "bytes": 2334,
+      "sha256": "7f2c00099ad8255af33e43ab77d1ac2c86a1dd9f46d3e5ea2a9a52246f5033d9",
+      "license": "CC BY-NC-SA 4.0; see Essentia metadata",
+      "profile": "full"
+    },
+    {
+      "path": "models/semantic-heads/mood_relaxed-discogs-effnet-1.onnx",
+      "url": "https://huggingface.co/rlupi/deep-cuts-models-noncommercial/resolve/main/mood_relaxed-discogs-effnet-1.onnx",
+      "bytes": 514101,
+      "sha256": "8ba6515a1e5943a72b3b475e3a25fc7a2ff04142c3eaa6aa0716fca371efdfff",
+      "license": "CC BY-NC-SA 4.0; see Essentia metadata",
+      "profile": "full"
+    },
+    {
+      "path": "models/semantic-heads/mood_relaxed-discogs-effnet-1.json",
+      "url": "https://huggingface.co/rlupi/deep-cuts-models-noncommercial/resolve/main/mood_relaxed-discogs-effnet-1.json",
+      "bytes": 2364,
+      "sha256": "86c0fe1c2c6d49bf08537bc2d3a602204feaede011ed119c1fc6c36270f60e6a",
+      "license": "CC BY-NC-SA 4.0; see Essentia metadata",
+      "profile": "full"
+    },
+    {
+      "path": "models/semantic-heads/mood_aggressive-discogs-effnet-1.onnx",
+      "url": "https://huggingface.co/rlupi/deep-cuts-models-noncommercial/resolve/main/mood_aggressive-discogs-effnet-1.onnx",
+      "bytes": 514107,
+      "sha256": "de36550b5d1660791ad732ed6de6ebfdc3e65dcf50b928b2578ddf103dbfb400",
+      "license": "CC BY-NC-SA 4.0; see Essentia metadata",
+      "profile": "full"
+    },
+    {
+      "path": "models/semantic-heads/mood_aggressive-discogs-effnet-1.json",
+      "url": "https://huggingface.co/rlupi/deep-cuts-models-noncommercial/resolve/main/mood_aggressive-discogs-effnet-1.json",
+      "bytes": 2386,
+      "sha256": "81773e95d78db1b93283d73b2d06344d1ff79685b57d9428a40d47fdfcf537b8",
+      "license": "CC BY-NC-SA 4.0; see Essentia metadata",
+      "profile": "full"
+    },
+    {
+      "path": "models/semantic-heads/mtg_jamendo_instrument-discogs-effnet-1.onnx",
+      "url": "https://raw.githubusercontent.com/coiluck/kokone-music-for-mobile/9cfeb133ba8ea25385a239834395c3a28645a93c/src-tauri/models/mtg_jamendo_instrument-discogs-effnet-1.onnx",
+      "bytes": 2706492,
+      "sha256": "9ae2d9e763d66bd8eed654d1ac3aa171e6539cb8a0e11f3dcd53df1428980802",
+      "license": "CC BY-NC-SA 4.0; see Essentia metadata",
+      "profile": "full"
+    },
+    {
+      "path": "models/semantic-heads/mtg_jamendo_instrument-discogs-effnet-1.json",
+      "url": "https://raw.githubusercontent.com/chrisatom1998/document-graph-explorer/12c9fad91dd41b12c4eb42fe1d2550837f0a99d0/public/jamendo-model/mtg_jamendo_instrument-discogs-effnet-1.json",
+      "bytes": 3382,
+      "sha256": "7d02204c6451b5615e2968ec6364bbae3b915c886e608f05f00d3a38dc5177c4",
+      "license": "CC BY-NC-SA 4.0; see Essentia metadata",
+      "profile": "full"
+    },
+    {
+      "path": "models/semantic-heads/voice_instrumental-discogs-effnet-1.onnx",
+      "url": "https://huggingface.co/rlupi/deep-cuts-models-noncommercial/resolve/main/voice_instrumental-discogs-effnet-1.onnx",
+      "bytes": 514114,
+      "sha256": "20155e4c439714b0c45c08644b73c8e12d9dccb173bd4ab9934bf1e5aee837ca",
+      "license": "CC BY-NC-SA 4.0; see Essentia metadata",
+      "profile": "full"
+    },
+    {
+      "path": "models/semantic-heads/voice_instrumental-discogs-effnet-1.json",
+      "url": "https://huggingface.co/rlupi/deep-cuts-models-noncommercial/resolve/main/voice_instrumental-discogs-effnet-1.json",
+      "bytes": 2013,
+      "sha256": "43ac2c3b055dfaed20f6232e0f10636c287f1c5a6e5bd02c5585860031964c8f",
+      "license": "CC BY-NC-SA 4.0; see Essentia metadata",
+      "profile": "full"
+    },
+    {
+      "path": "models/wav2small/model.safetensors",
+      "url": "https://huggingface.co/audeering/wav2small/resolve/main/model.safetensors",
+      "bytes": 68716,
+      "sha256": "86ccef83ce942ff34299a44684e9b69bf37021dd4b69325c0dcb3decb0df2f4d",
+      "license": "See audeering/wav2small model card",
+      "profile": "full"
+    }
+  ],
+  "notes": [
+    "Weights are downloaded separately, never bundled in the skill.",
+    "Hash locks detect changed or unavailable upstream artifacts; do not bypass them.",
+    "Third-party model licenses remain separate from this project code."
+  ]
+}
